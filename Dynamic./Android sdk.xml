@@ -38,9 +38,14 @@
                 <category android:name="android.intent.category.DEFAULT"/>
                 <category android:name="android.intent.category.BROWSABLE"/>
                 <data
-                    android:host="kontlin.example.com"
+                    android:host="https://rathanaphon.page/com"
                     android:scheme="https"/>
             </intent-filter>
+            <application>
+    <meta-data
+      android:name="firebase_performance_logcat_enabled"
+      android:value="true" />
+   </application>
         </activity>
     </application>
 
