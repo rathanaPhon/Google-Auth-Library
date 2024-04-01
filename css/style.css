@@ -50,34 +50,163 @@ ul{
 .link{    
   left: 0%;
 }
-nav ul {
-  left: -50%;
-  position: fixed;
-  height: 100vh;
-  width: 30%;
-  background: White;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+.grid-container {
+display: grid;
+grid-template-columns: repeat(3, 1fr);
+gap: 10px;
+}  
+header{
+border:1.3px solid rgb(12,23,35);
+padding-top:5px;
+padding-bottom:5px;
+position:relative;
+border-radius:2px;
+left:45%;
+width:70%;
+margin-top:25px;
 }
-ul h1{
-  color: #fffff;
+#textToSearch{
+border:1px solid grey;
+padding:5px 5px;
+height:20px;
+width:70%;
+border-radius:2px;
 }
-ul li{
-  text-align:center;
-  padding:15px 0;
-  width: 100%;
+button {
+ height: 30px;
+ background:#e8491d;
+ border:0%;
+ padding-left: 20px;
+ padding-right:20px;
+ color:#fffff;
+ bottom: right;
 }
-ul li:hover{
-  background: 26A69A;
-  padding-left: 7%;
-  width:93%; 
+html{
+margin: 0%;
+background: White;
 }
-li a{
-  color: #fffff;
+h3{
+text-align: center;
+font-size: 30px;
+margin: 0;
+padding-top: 10px;
+}
+a{
+text-decoration: none;
+}
+.gallery{
+display: flex;
+flex-wrap: wгар;
+width: 100%;
+justify-content: center;
+align-items: center;
+margin: 50px 0;
+}
+.content{
+width: 20%;
+margin: 15px;
+box-sizing: border-box;
+float: left;
+text-align: center;
+border-radius: 20px;
+cursor: pointer;
+padding-top: 10px;
+box-shadow: 0 14px 28px rgba(0,0,0,0.25),
+0 10px 10px rgba(0,0,0,0.22);
+transition: -45s;
+background: #f2f2f2;
+}
+.content:hover{
+box-shadow: 0 3px 6px rgba(0,0,0,0.16),
+0 3px 6px rgba(0,0,0,0.23);
+transform: translate(0px, -8px);
+}
+.img{         
+width: 500px;
+height: 500px; 
+text-align: center;
+margin: 0 auto;
+display: block;
+}
+.p{
+text-align: center;
+color: #fffff;
+padding-top: 0 08;
+}
+h6{
+font-size:26px;
+text-align: center;
+color: #40e1ffec;
+}
+ul{
+list-style: none;
+display: flex;
+justify-content: center;
+align-items: center;
+padding-top: 0%;
+}
+li{
+padding-top: 5px;
+}
+.fa{
+font-size: 26px;
+transition: .4s;
+margin:5%;
+}
+.checked{
+color: #ffb355;
+}
+.fa:hover{
+transform: scale(1.3);
+transition: .65s;
+}
+.button{
+text-align: center;
+font-size: 24px;
+color: #ffc82a;
+width: 100%;
+padding-top: 15px;
+border-radius: 0;
+online:none;
+corsor: pointer;
+margin-top: 5px;
+background: #fffff;
+}
+.team>img { 
+width: 200px;
+height: 300px;
+border: 5px solid;
+padding: 10px;    
+text-align: none;
+background: url("image/rathanaphon.jpg");
+box-shadow: 0 15px 30px rgba(0,0,0,0.30);
+box-sizing: border-box;
+display: auto;
+}
+.ul:fa {
+  width: 20px;
+}
+.ul fa:hover{
+transform: scale(1.3);
+transition: .65s;
+}
+footer {
+  padding:30px;
+  margin-top:20px;
+  color: White;
+  background: brown;
+  margin-bottom: 1%;
+}
+.footer-li {  
+  color: White;    
+  background: brown;
+  text-decoration: none;  
+  margin: 35%;
 }
 .text{
   padding:1px 10px 1px 10px;
-  color:#ffff;
+  color:#fffff;
 }
+
+
+  
