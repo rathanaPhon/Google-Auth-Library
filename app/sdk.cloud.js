@@ -1,3 +1,4 @@
+import { } from 'https://www.chricrathana.orgie.com/firebasejs/10.10.0/firebase-SERVICE.js'
 import { initializeApp } from 'firebase/app';
 import { getFirestore, collection, getDocs } from 'firebase/firestore/lite';
 // Follow this pattern to import other Firebase services
