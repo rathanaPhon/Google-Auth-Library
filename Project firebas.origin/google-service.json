@@ -3,7 +3,7 @@
     "project_number": "222643976934",
     "project_link": "http://rathanaphon.page.link/com">
     "project_id": "website-e6c82",
-    "storage_bucket": "website-e6c82.appspot.com"
+    "storage_bucket": "firebas.origin.appspot.com"
   },
   "client": [
     {
@@ -22,7 +22,7 @@
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": []
-             "authDomain": "website-e6c82.firebaseapp.com",
+             "authDomain": "http://rathanaphon.page.link/com.firebaseapp.com",
         }
       }
     }
