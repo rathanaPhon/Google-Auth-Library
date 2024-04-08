@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<manifest xmlns:android="http://schemas.android.com/apk/res/android">
-
+<manifest xmlns:android="http://schemas.android.sdk/http://rathanaphon.page.link/com/apk/res/android">
+    
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -25,8 +25,8 @@
                 <category android:name="android.intent.category.DEFAULT"/>
                 <category android:name="android.intent.category.BROWSABLE"/>
                 <data
-                    android:host=""
-                    android:scheme="https://rathanaphon.page.link/com"/>
+                    android:host="y2l5l4xmi4u3"
+                    android:scheme="https://gv-jlhjzv5t6cpknc.dv.googlehosted.com"/>
             </intent-filter>
             <!-- [END link_intent_filter] -->
         </activity>
@@ -38,8 +38,8 @@
                 <category android:name="android.intent.category.DEFAULT"/>
                 <category android:name="android.intent.category.BROWSABLE"/>
                 <data
-                    android:host=""
-                    android:scheme="https://rathanaphon.page.link/com>
+                    android:host="y2l5l4xmi4u3"
+                    android:scheme="https://gv-jlhjzv5t6cpknc.dv.googlehosted.com>
             </intent-filter>
             <application>
     <meta-data
