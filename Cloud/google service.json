@@ -1,10 +1,7 @@
-# Check the existing access scopes
-gcloud compute instances describe [INSTANCE_NAME] --format json
 
-# The above command returns the service account information. For example:
   "serviceAccounts": [
    {
-    "email": "your.gserviceaccount.com",
+    "email": "phonrathana738@gmail.com",
     "scopes": [
      "https://www.googleapis.com/auth/cloud-platform",
      "https://www.googleapis.com/auth/userinfo.email"
@@ -12,7 +9,4 @@ gcloud compute instances describe [INSTANCE_NAME] --format json
     }
   ],
 
-# Stop the VM, then run the following command, using the service account
-# that gcloud returned when you checked the scopes.
 
-gcloud compute instances set-service-account [INSTANCE_NAME] --service-account "your.gserviceaccount.com" --scopes "https://www.googleapis.com/auth/firebase.database,https://www.googleapis.com/auth/userinfo.email"
