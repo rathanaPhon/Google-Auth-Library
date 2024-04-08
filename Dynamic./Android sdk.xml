@@ -25,8 +25,8 @@
                 <category android:name="android.intent.category.DEFAULT"/>
                 <category android:name="android.intent.category.BROWSABLE"/>
                 <data
-                    android:host="example.com"
-                    android:scheme="https"/>
+                    android:host=""
+                    android:scheme="https://rathanaphon.page.link/com"/>
             </intent-filter>
             <!-- [END link_intent_filter] -->
         </activity>
@@ -38,8 +38,8 @@
                 <category android:name="android.intent.category.DEFAULT"/>
                 <category android:name="android.intent.category.BROWSABLE"/>
                 <data
-                    android:host="https://rathanaphon.page/com"
-                    android:scheme="https"/>
+                    android:host=""
+                    android:scheme="https://rathanaphon.page.link/com>
             </intent-filter>
             <application>
     <meta-data
