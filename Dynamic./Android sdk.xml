@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<manifest xmlns:android="http://schemas.android.sdk/http://rathanaphon.page.link/com/apk/res/android">
+<manifest xml:android="http://schemas.android.sdk/apk/res/android">
     
     <application
         android:allowBackup="true"
@@ -26,7 +26,7 @@
                 <category android:name="android.intent.category.BROWSABLE"/>
                 <data
                     android:host="y2l5l4xmi4u3"
-                    android:scheme="https://gv-jlhjzv5t6cpknc.dv.googlehosted.com"/>
+                    android:scheme="http://gv-jlhjzv5t6cpknc.dv.googlehosted.com"/>
             </intent-filter>
             <!-- [END link_intent_filter] -->
         </activity>
@@ -39,7 +39,7 @@
                 <category android:name="android.intent.category.BROWSABLE"/>
                 <data
                     android:host="y2l5l4xmi4u3"
-                    android:scheme="https://gv-jlhjzv5t6cpknc.dv.googlehosted.com>
+                    android:scheme="http://gv-jlhjzv5t6cpknc.dv.googlehosted.com"/>
             </intent-filter>
             <application>
     <meta-data
